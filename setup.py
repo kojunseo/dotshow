@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(name='dotshow', 
       # 프로젝트 명을 입력합니다.
-      version='0.0.1', 
+      version='0.0.4', 
       # 프로젝트 버전을 입력합니다.
       url='https://github.com/KorKite/imgdot', 
       # 홈페이지 주소를 입력합니다.
