@@ -8,6 +8,6 @@ import sys
 
 __version__ = '0.0.3'
 
-from .matching import change_img
+from .matching import change_img as thumshow
 
-__all__ = [change_img,]
+__all__ = [thumshow,]
