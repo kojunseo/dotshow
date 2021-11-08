@@ -8,6 +8,16 @@
     However, it is impossible for server ssh terminal.
     It is simple thumnail printer using python.
     
+
+# Example
+    We can print images like down below.
+<img width="300" alt="before" src="https://user-images.githubusercontent.com/50725139/140743113-9db67704-0a93-4f58-9542-a893b915a543.png">
+<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743199-64cac4d2-08be-4b23-9f21-393b2577bc51.png">
+
+<img width="300" alt="before" src="https://user-images.githubusercontent.com/50725139/140743399-5daf658c-085e-44f5-8e65-d9821f53512d.png">
+<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743425-35af69bf-3aca-4105-9c3b-4540b846ad7f.png">
+
+
 # How to use
 ### Git cloning on your repository
     pip install dotshow
@@ -45,11 +55,3 @@
     
     when you use low size parameter, image will undersampled too much 
     and it will decrease image quality.
-
-# Example
-    We can print images like down below.
-<img width="300" alt="before" src="https://user-images.githubusercontent.com/50725139/140743113-9db67704-0a93-4f58-9542-a893b915a543.png">
-<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743199-64cac4d2-08be-4b23-9f21-393b2577bc51.png">
-
-<img width="300" alt="before" src="https://user-images.githubusercontent.com/50725139/140743399-5daf658c-085e-44f5-8e65-d9821f53512d.png">
-<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743425-35af69bf-3aca-4105-9c3b-4540b846ad7f.png">
