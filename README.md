@@ -10,21 +10,41 @@
     
 # How to use
 ### Git cloning on your repository
-    git clone https://github.com/KorKite/imgdot
+    pip install dotshow
     
 ## import package on python
+### load our own package
+    from dotshow import loadshow
+    dotshow(<img-path>)
+
 ### cv2 version
     import cv2
-    from imgdot import thumshow
+    from dotshow import dotshow
     img = cv2.imread(<img-path>)
     thumshow(img) # run the code
 
 ### PIL Image version
     import numpy as np
     from PIL import Image
-    from imgdot import thumshow
+    from dotshow import dotshow
     img = np.array(Image.open(<img-path>))
     thumshow(img) # run the code
+    
+# Parameters
+    loadshow(
+        gray = True[default / bool]
+        size = 5 [default / 0 ~ 10]
+    )
+    dotshow(
+        gray = True[default]
+        size = 7 [default / 0 ~ 10]
+    )
+    
+    gray - if your image is not interpretable, give gray parater False
+    size - if your image is too big in your terminal, reduce size using this parameter
+    
+    when you use low size parameter, image will undersampled too much 
+    and it will decrease image quality.
 
 # Example
     We can print images like down below.
