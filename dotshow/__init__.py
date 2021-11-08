@@ -11,6 +11,7 @@ sys.path.append(real_path)
 
 __version__ = '0.0.1'
 
-from .matching import change_img as thumshow
+from .matching import dotshow as dotshow
+from .matching import loadshow as loadshow
 
-__all__ = [thumshow,]
+__all__ = [dotshow,]

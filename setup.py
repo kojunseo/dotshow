@@ -12,7 +12,7 @@ setup(name='dotshow',
       # 프로젝트 담당자 혹은 작성자의 이메일 주소를 입력합니다.
       description='Image thumnail print on terminal using text', 
       # 프로젝트에 대한 간단한 설명을 입력합니다.
-      packages=find_packages(exclude=[ "dotshow"]), 
+      packages=find_packages(), 
       # 기본 프로젝트 폴더 외에 추가로 입력할 폴더를 입력합니다.
       long_description=open('README.md').read(), 
       # 프로젝트에 대한 설명을 입력합니다. 보통 README.md로 관리합니다.
