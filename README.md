@@ -6,6 +6,24 @@
     To see thumnail of the image, we can use cv2.imshow in local environment.
     However, it is impossible for server ssh terminal.
     It is simple thumnail printer using python.
+    
+# How to use
+### Git cloning on your repository
+    git clone https://github.com/KorKite/imgdot
+    
+## import package on python
+### cv2 version
+    import cv2
+    from imgdot import thumshow
+    img = cv2.imread(<img-path>)
+    thumshow(img) # run the code
+
+### PIL Image version
+    import numpy as np
+    from PIL import Image
+    from imgdot import thumshow
+    img = np.array(Image.open(<img-path>))
+    thumshow(img) # run the code
 
 # Example
     We can print images like down below.
