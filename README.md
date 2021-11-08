@@ -33,7 +33,7 @@
 # Parameters
     loadshow(
         gray = True[default / bool]
-        size = 5 [default / 0 ~ 10]
+        size = 7 [default / 0 ~ 10]
     )
     dotshow(
         gray = True[default]
