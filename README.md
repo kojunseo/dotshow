@@ -1,4 +1,5 @@
 # imgdot
+    We generate image to text on terminal
     It is made for linux server to show image.
     When we want to see image on python  linux server, 
     we have to save image or use jupyter notebook.
