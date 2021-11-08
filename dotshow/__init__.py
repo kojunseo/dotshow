@@ -5,11 +5,11 @@
 import inspect
 import os
 import sys
-import cv2
-import numpy as np
-from PIL import Image
 
-__version__ = '0.0.3'
+real_path = os.path.dirname(os.path.abspath(__file__)).replace("\\","/")
+sys.path.append(real_path)
+
+__version__ = '0.0.1'
 
 from .matching import change_img as thumshow
 

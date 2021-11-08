@@ -10,10 +10,3 @@ def under_sampling(arr, size=5):
     dst = cv2.resize(dst, dsize=(REAL_WIDTH, REAL_HEIGHT), interpolation=cv2.INTER_AREA)
     return dst, (REAL_WIDTH, REAL_HEIGHT)
 
-
-if __name__ =="__main__":
-    import cv2
-    import numpy as np
-    from PIL import Image
-    img = np.array(Image.open("ex.jpg"))
-    print(under_sampling(img).shape)
