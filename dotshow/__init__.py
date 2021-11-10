@@ -13,5 +13,6 @@ __version__ = '0.0.1'
 
 from .matching import dotshow as dotshow
 from .matching import loadshow as loadshow
+from .experiment.movie import movshow as movshow
 
-__all__ = [dotshow,]
+__all__ = [dotshow, loadshow, movshow]

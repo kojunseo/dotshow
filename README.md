@@ -31,14 +31,14 @@
     import cv2
     from dotshow import dotshow
     img = cv2.imread(<img-path>)
-    thumshow(img) # run the code
+    dotshow(img) # run the code
 
 ### PIL Image version
     import numpy as np
     from PIL import Image
     from dotshow import dotshow
     img = np.array(Image.open(<img-path>))
-    thumshow(img) # run the code
+    dotshow(img) # run the code
     
 # Parameters
     loadshow(

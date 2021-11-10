@@ -4,14 +4,20 @@ def weight_match(weight, gray):
         
     if weight > 240:
         return "₩"
-    elif weight > 200:
-        return "W"
-    elif weight > 160:
+    elif weight > 220:
         return "N"
-    elif weight > 140:
+    elif weight > 200:
+        return "B"
+    elif weight > 180:
+        return "H"
+    elif weight > 160:
         return "O"
-    elif weight > 110:
+    elif weight > 140:
+        return "U"
+    elif weight > 120:
         return "C"
+    elif weight > 100:
+        return "L"
     elif weight > 90:
         return "o"
     elif weight > 70:

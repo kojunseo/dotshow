@@ -2,12 +2,12 @@ from setuptools import setup, find_packages
 
 setup(name='dotshow', 
       # 프로젝트 명을 입력합니다.
-      version='0.0.4', 
+      version='0.1.1', 
       # 프로젝트 버전을 입력합니다.
-      url='https://github.com/KorKite/imgdot', 
+      url='https://github.com/KorKite/dotshow', 
       # 홈페이지 주소를 입력합니다.
       author='Korkite', 
-      # 프로젝트 담당자 혹은 작성자를 입력합니다.
+      # 프로젝트 담당자 혹은 작성자를 입력합니다
       author_email='sta06167@naver.com', 
       # 프로젝트 담당자 혹은 작성자의 이메일 주소를 입력합니다.
       description='Image thumnail print on terminal using text', 
