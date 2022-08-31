@@ -28,10 +28,12 @@
     dotshow(<img-path>)
 
 ### cv2 version
+```python
     import cv2
     from dotshow import dotshow
     img = cv2.imread(<img-path>)
     dotshow(img) # run the code
+````
 
 ### PIL Image version
     import numpy as np
