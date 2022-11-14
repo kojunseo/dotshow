@@ -34,8 +34,8 @@
 ### load our own package
 ```python
 from dotshow import loadshow
-dotshow(<img-path>) # run the code (drawing a color image, default=color)
-dotshow(<img-path>, color=False) # run the code (drawing a gray image)
+loadshow(<img-path>) # run the code (drawing a color image, default=color)
+loadshow(<img-path>, color=False) # run the code (drawing a gray image)
 ```
 
 ### cv2 version
