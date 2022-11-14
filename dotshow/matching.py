@@ -37,12 +37,8 @@ def loadshow(path, gray=False, size=7, color=True):
 
 def colorshow(arr, size=7):
     d_arr, real = under_sampling_color(arr, size=size)
-    print("__"*real[0])
     for line in d_arr:
-        print("|", end="")
         for var in line:
             val = color_match(var)
             print(val, end="")
             print(val, end="")
-        print("|")
-    print("__"*real[0])

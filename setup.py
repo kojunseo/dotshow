@@ -5,13 +5,13 @@ setup(name='dotshow',
       # 프로젝트 명을 입력합니다.
       version=__version__, 
       # 프로젝트 버전을 입력합니다.
-      url='https://github.com/KorKite/dotshow', 
+      url='https://github.com/kojunseo/dotshow', 
       # 홈페이지 주소를 입력합니다.
-      author='Korkite', 
+      author='kojunseo', 
       # 프로젝트 담당자 혹은 작성자를 입력합니다
       author_email='sta06167@naver.com', 
       # 프로젝트 담당자 혹은 작성자의 이메일 주소를 입력합니다.
-      description='Image thumnail print on terminal using text', 
+      description='Drawing image on terminal', 
       # 프로젝트에 대한 간단한 설명을 입력합니다.
       packages=find_packages(), 
       # 기본 프로젝트 폴더 외에 추가로 입력할 폴더를 입력합니다.
