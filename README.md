@@ -13,13 +13,13 @@
 # Example
     We can print images like down below.
 ### 원본 이미지
-<img width="300" align = "left" alt="before" src="https://user-images.githubusercontent.com/50725139/140743113-9db67704-0a93-4f58-9542-a893b915a543.png">
+<img width="300" alt="before" src="https://user-images.githubusercontent.com/50725139/140743113-9db67704-0a93-4f58-9542-a893b915a543.png">
 
 ### dotshow
-<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743199-64cac4d2-08be-4b23-9f21-393b2577bc51.png">
+<img width="300" alt="dotshow" src="https://user-images.githubusercontent.com/50725139/140743199-64cac4d2-08be-4b23-9f21-393b2577bc51.png">
 
 ### colorshow
-<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/201597516-fd367a3b-5106-4b75-b02f-4435a00f54b9.png">
+<img width="300" alt="colorshow" src="https://user-images.githubusercontent.com/50725139/201597516-fd367a3b-5106-4b75-b02f-4435a00f54b9.png">
 
 
 <!-- <img width="300" align = "left"  alt="before" src="https://user-images.githubusercontent.com/50725139/140743399-5daf658c-085e-44f5-8e65-d9821f53512d.png">
