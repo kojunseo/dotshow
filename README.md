@@ -1,6 +1,6 @@
 # dotshow
     We generate image to text on terminal
-    It is made for linux server to show image.
+    It is made for terminal (CLI) to show image.
     When we want to see image on python  linux server, 
     we have to save image or use jupyter notebook.
     To overcome those problem, I made this package.
@@ -31,14 +31,14 @@
     pip install dotshow
     
 ## import package on python
-### load our own package
+### Draw image on terminal by putting path
 ```python
 from dotshow import loadshow
 loadshow(<img-path>) # run the code (drawing a color image, default=color)
 loadshow(<img-path>, color=False) # run the code (drawing a gray image)
 ```
 
-### cv2 version
+### Draw image on terminal by OpenCV2 array
 ```python
 import cv2
 from dotshow import dotshow, colorshow
@@ -47,7 +47,7 @@ dotshow(img) # run the code (drawing a gray image)
 colorshow(img) # run the code (drawing a color image)
 ````
 
-### PIL Image version
+### Draw image on terminal by PIL Image
 ```python
 import numpy as np
 from PIL import Image
