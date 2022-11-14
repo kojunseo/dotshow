@@ -34,7 +34,8 @@
 ### load our own package
 ```python
 from dotshow import loadshow
-dotshow(<img-path>)
+dotshow(<img-path>) # run the code (drawing a color image, default=color)
+dotshow(<img-path>, color=False) # run the code (drawing a gray image)
 ```
 
 ### cv2 version
@@ -42,8 +43,8 @@ dotshow(<img-path>)
 import cv2
 from dotshow import dotshow, colorshow
 img = cv2.imread(<img-path>)
-dotshow(img) # run the code
-colorshow(img)
+dotshow(img) # run the code (drawing a gray image)
+colorshow(img) # run the code (drawing a color image)
 ````
 
 ### PIL Image version
@@ -52,8 +53,8 @@ import numpy as np
 from PIL import Image
 from dotshow import dotshow, colorshow
 img = np.array(Image.open(<img-path>))
-dotshow(img) # run the code
-colorshow(img)
+dotshow(img) # run the code (drawing a gray image)
+colorshow(img) # run the code (drawing a color image)
 ```
 
 # Parameters
