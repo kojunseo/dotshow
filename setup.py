@@ -1,8 +1,9 @@
+from dotshow import __version__
 from setuptools import setup, find_packages
 
 setup(name='dotshow', 
       # 프로젝트 명을 입력합니다.
-      version='0.1.1', 
+      version=__version__, 
       # 프로젝트 버전을 입력합니다.
       url='https://github.com/KorKite/dotshow', 
       # 홈페이지 주소를 입력합니다.
@@ -18,7 +19,7 @@ setup(name='dotshow',
       # 프로젝트에 대한 설명을 입력합니다. 보통 README.md로 관리합니다.
       long_description_content_type='text/markdown', 
       # 마크다운 파일로 description를 지정했다면 text/markdown으로 작성합니다.
-      install_requires=['Pillow', 'opencv-python', 'numpy'],
+      install_requires=['opencv-python', 'numpy'],
       # 설치시 설치할 라이브러리를 지정합니다.
       zip_safe=False,
       classifiers=[

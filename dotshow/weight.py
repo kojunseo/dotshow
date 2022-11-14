@@ -28,3 +28,6 @@ def weight_match(weight, gray):
         return "."
     else:
         return " "
+
+def color_match(weight):
+    return f"\033[38;2;{weight[2]};{weight[1]};{weight[0]}m▒\033[0m"

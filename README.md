@@ -12,10 +12,18 @@
 
 # Example
     We can print images like down below.
+### 원본 이미지
 <img width="300" align = "left" alt="before" src="https://user-images.githubusercontent.com/50725139/140743113-9db67704-0a93-4f58-9542-a893b915a543.png">
+
+### dotshow
 <img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743199-64cac4d2-08be-4b23-9f21-393b2577bc51.png">
-<img width="300" align = "left"  alt="before" src="https://user-images.githubusercontent.com/50725139/140743399-5daf658c-085e-44f5-8e65-d9821f53512d.png">
-<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743425-35af69bf-3aca-4105-9c3b-4540b846ad7f.png">
+
+### colorshow
+<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/201597516-fd367a3b-5106-4b75-b02f-4435a00f54b9.png">
+
+
+<!-- <img width="300" align = "left"  alt="before" src="https://user-images.githubusercontent.com/50725139/140743399-5daf658c-085e-44f5-8e65-d9821f53512d.png">
+<img width="300" alt="after" src="https://user-images.githubusercontent.com/50725139/140743425-35af69bf-3aca-4105-9c3b-4540b846ad7f.png"> -->
 
 
 # How to use
@@ -24,24 +32,30 @@
     
 ## import package on python
 ### load our own package
-    from dotshow import loadshow
-    dotshow(<img-path>)
+```python
+from dotshow import loadshow
+dotshow(<img-path>)
+```
 
 ### cv2 version
 ```python
-    import cv2
-    from dotshow import dotshow
-    img = cv2.imread(<img-path>)
-    dotshow(img) # run the code
+import cv2
+from dotshow import dotshow, colorshow
+img = cv2.imread(<img-path>)
+dotshow(img) # run the code
+colorshow(img)
 ````
 
 ### PIL Image version
-    import numpy as np
-    from PIL import Image
-    from dotshow import dotshow
-    img = np.array(Image.open(<img-path>))
-    dotshow(img) # run the code
-    
+```python
+import numpy as np
+from PIL import Image
+from dotshow import dotshow, colorshow
+img = np.array(Image.open(<img-path>))
+dotshow(img) # run the code
+colorshow(img)
+```
+
 # Parameters
     loadshow(
         gray = True[default / bool]
@@ -51,9 +65,14 @@
         gray = True[default]
         size = 7 [default / 0 ~ 10]
     )
+    colorshow(
+        size = 7 [default / 0 ~ 10]
+    )
     
     gray - if your image is not interpretable, give gray parater False
     size - if your image is too big in your terminal, reduce size using this parameter
     
-    when you use low size parameter, image will undersampled too much 
-    and it will decrease image quality.
+* If you use low size parameter, image will undersampled too much and it will decrease image quality.
+* If you use big size parameter, the terminal cannot describe image because the terminal is too small.
+
+    
